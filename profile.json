@@ -1,9 +1,9 @@
 {
-  "version": 6,
-  "name": "Finland 18 FEB 2025 1",
+  "version": 7,
+  "name": "Finland 28 FEB 2025 1",
   "id": "acf22988-5909-4074-b837-99bfc507faa4",
   "updateUrl": "https://vatis.lusep.fi/profile.json",
-  "updateSerial": 2025021801,
+  "updateSerial": 2025022801,
   "stations": [
     {
       "id": "58db8d2b-0fba-4ba4-87d2-e8b2620c9cca",
@@ -1811,14 +1811,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -1830,8 +1830,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -1975,7 +1975,7 @@
           "name": "03 AFIS",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFET [ATIS_CODE]. [TIME].\r\nRWY 03 IN USE.\r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFET [ATIS_CODE]. [TIME].\r\nRWY 03 IN USE.\r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -1985,7 +1985,7 @@
           "name": "21 AFIS",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFET [ATIS_CODE]. [TIME].\r\nRWY 21 IN USE.\r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFET [ATIS_CODE]. [TIME].\r\nRWY 21 IN USE.\r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -3834,14 +3834,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -3853,8 +3853,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -3998,7 +3998,7 @@
           "name": "26 ILS-Z (PRIMARY)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHA [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 26 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFHA [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 26 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -4008,7 +4008,7 @@
           "name": "08 RNP (PRIMARY)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHA [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 08 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFHA [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 08 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -4017,7 +4017,7 @@
           "id": "46a2253a-f9a1-497f-a325-8dc4b80306e7",
           "name": "26 RNP",
           "airportConditions": "",
-          "template": "@EFHA [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 26 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFHA [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 26 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -4026,7 +4026,7 @@
           "id": "1ca483c7-b4fd-458b-96d7-34a35eef25a8",
           "name": "26 VOR",
           "airportConditions": "",
-          "template": "@EFHA [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 26 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFHA [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 26 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -4035,7 +4035,7 @@
           "id": "2ffe23b3-8f7d-4f4f-862f-da64fb3e17df",
           "name": "08 VISUAL",
           "airportConditions": "",
-          "template": "@EFHA [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 08 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFHA [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 08 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -4044,7 +4044,7 @@
           "id": "77704fbd-745b-40ca-8591-767df6b1c044",
           "name": "26 VISUAL",
           "airportConditions": "",
-          "template": "@EFHA [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH.  \r\nRWY 26 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFHA [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH.  \r\nRWY 26 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -5903,14 +5903,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -5922,8 +5922,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -6066,7 +6066,7 @@
           "id": "8331db1c-c334-4609-942f-c3215d1c74bd",
           "name": "22 ILS (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFIV [ATIS_CODE]. [TIME]. \r\nILS @APCH. \r\nRWY 22 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFIV [ATIS_CODE]. [TIME]. \r\nILS @APCH. \r\nRWY 22 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -6075,7 +6075,7 @@
           "id": "1241bf4b-f25f-4136-86d6-14ab058fd88d",
           "name": "04 RNP (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFIV [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 04 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFIV [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 04 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -6084,7 +6084,7 @@
           "id": "cde60074-7d4c-447c-adab-086a462e90d9",
           "name": "22 AFIS",
           "airportConditions": "",
-          "template": "@EFIV [ATIS_CODE]. [TIME]. \r\nRWY 22 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFIV [ATIS_CODE]. [TIME]. \r\nRWY 22 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -6093,7 +6093,7 @@
           "id": "0931fb7d-72cd-46c2-8b7c-4023ec606c6b",
           "name": "04 AFIS",
           "airportConditions": "",
-          "template": "@EFIV [ATIS_CODE]. [TIME]. \r\nRWY 04 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFIV [ATIS_CODE]. [TIME]. \r\nRWY 04 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -6102,7 +6102,7 @@
           "id": "570002ef-00dc-42b2-a1c3-f878d6a018f1",
           "name": "22 RNP",
           "airportConditions": "",
-          "template": "@EFIV [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 22 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFIV [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 22 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -6111,7 +6111,7 @@
           "id": "94cfd819-0120-43d4-b8cb-d1b3513f299c",
           "name": "04 VISUAL",
           "airportConditions": "",
-          "template": "@EFIV [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 04 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFIV [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 04 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -6120,7 +6120,7 @@
           "id": "38800730-a88f-4d39-8132-7360e364daf0",
           "name": "22 VISUAL",
           "airportConditions": "",
-          "template": "@EFIV [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 22 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFIV [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 22 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -7974,14 +7974,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -7993,8 +7993,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -8137,7 +8137,7 @@
           "id": "ec6aaaa4-c69c-4826-b827-53a3b0e2538f",
           "name": "28 ILS (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFJO [ATIS_CODE]. [TIME]. \r\nILS @APCH. \r\nRWY 28 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFJO [ATIS_CODE]. [TIME]. \r\nILS @APCH. \r\nRWY 28 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -8146,7 +8146,7 @@
           "id": "90b17417-b0a7-4c80-a508-7a1c8a9738cd",
           "name": "10 RNP (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFJO [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 10 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFJO [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 10 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -8155,7 +8155,7 @@
           "id": "2ddad301-2115-41a5-ac28-7478419cdf25",
           "name": "28 RNP",
           "airportConditions": "",
-          "template": "@EFJO [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 28 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFJO [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 28 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -8164,7 +8164,7 @@
           "id": "d44f3c5b-aa94-47ba-b291-003d3024ba53",
           "name": "10 VISUAL",
           "airportConditions": "",
-          "template": "@EFJO [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 10 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFJO [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 10 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -8174,7 +8174,7 @@
           "name": "28 VISUAL",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFJO [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 28 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFJO [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 28 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -10028,14 +10028,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -10047,8 +10047,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -10191,7 +10191,7 @@
           "id": "f66dc0fc-0f9c-4da7-8b38-f89438652301",
           "name": "30 ILS-Z (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFJY [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFJY [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -10200,7 +10200,7 @@
           "id": "0267c0d4-cd42-410d-9451-d5735132d651",
           "name": "12 RNP (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFJY [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFJY [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -10209,7 +10209,7 @@
           "id": "666925ba-c2f3-4933-85b4-c10eaaf17f08",
           "name": "30 RNP",
           "airportConditions": "",
-          "template": "@EFJY [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFJY [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -10219,7 +10219,7 @@
           "name": "12 VOR",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFJY [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFJY [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -10228,7 +10228,7 @@
           "id": "cf5a3429-d776-4165-a5d2-eaa0148a4389",
           "name": "30 VOR",
           "airportConditions": "",
-          "template": "@EFJY [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFJY [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -10237,7 +10237,7 @@
           "id": "ba5c620c-8683-4614-8f53-37f3d00322f4",
           "name": "12 VISUAL",
           "airportConditions": "",
-          "template": "@EFJY [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFJY [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -10246,7 +10246,7 @@
           "id": "00a04a1a-e2c4-45bb-a5f9-4efdb7584389",
           "name": "30 VISUAL",
           "airportConditions": "",
-          "template": "@EFJY [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFJY [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -12125,14 +12125,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -12144,8 +12144,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -12288,7 +12288,7 @@
           "id": "b73a918e-3040-441f-bacd-d251494ac8d1",
           "name": "18 ILS (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFKE [ATIS_CODE]. [TIME]. \r\nILS @APCH. \r\nRWY 18 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKE [ATIS_CODE]. [TIME]. \r\nILS @APCH. \r\nRWY 18 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -12297,7 +12297,7 @@
           "id": "fbd5906c-ed33-4716-ade0-f04b6f0ea9a7",
           "name": "36 RNP (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFKE [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 36 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKE [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 36 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -12306,7 +12306,7 @@
           "id": "8d3d5a32-d4ff-43e3-8038-51b46894d68d",
           "name": "18 RNP",
           "airportConditions": "",
-          "template": "@EFKE [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 18 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKE [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 18 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -12315,7 +12315,7 @@
           "id": "73302e96-6540-4bb6-850a-8a78acc9e40a",
           "name": "36 VISUAL",
           "airportConditions": "",
-          "template": "@EFKE [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 36 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKE [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 36 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -12324,7 +12324,7 @@
           "id": "55b6a674-133d-4b05-8943-7368ddacf1d7",
           "name": "18 VISUAL",
           "airportConditions": "",
-          "template": "@EFKE [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 18 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKE [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 18 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -14178,14 +14178,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -14197,8 +14197,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -14342,7 +14342,7 @@
           "name": "07 AFIS",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFKI [ATIS_CODE]. [TIME]. \r\nRWY 07 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKI [ATIS_CODE]. [TIME]. \r\nRWY 07 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -14351,7 +14351,7 @@
           "id": "2d8e9465-0bd6-4638-95a8-1ae025147727",
           "name": "25 AFIS",
           "airportConditions": "",
-          "template": "@EFKI [ATIS_CODE]. [TIME]. \r\nRWY 25 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKI [ATIS_CODE]. [TIME]. \r\nRWY 25 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -16200,14 +16200,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -16219,8 +16219,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -16363,7 +16363,7 @@
           "id": "f09ede21-40d8-4bc8-b647-efca1632280e",
           "name": "19 ILS (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFKK [ATIS_CODE]. [TIME]. \r\nILS @APCH. \r\nRWY 19 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKK [ATIS_CODE]. [TIME]. \r\nILS @APCH. \r\nRWY 19 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -16372,7 +16372,7 @@
           "id": "9b55ff60-3bbc-4b96-bf8a-b8a206245d72",
           "name": "01 RNP (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFKK [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 01 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKK [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 01 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -16381,7 +16381,7 @@
           "id": "b6a9f5dd-69ba-405b-ad15-810e4c269a91",
           "name": "19 RNP",
           "airportConditions": "",
-          "template": "@EFKK [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 19 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKK [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 19 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -16391,7 +16391,7 @@
           "name": "01 VISUAL",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFKK [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 01 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKK [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 01 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -16400,7 +16400,7 @@
           "id": "e2e32a28-6b63-4869-bada-25e70ad071e8",
           "name": "19 VISUAL",
           "airportConditions": "",
-          "template": "@EFKK [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 19 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKK [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 19 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -18255,14 +18255,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -18274,8 +18274,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -18418,7 +18418,7 @@
           "id": "e17517a3-d76d-460b-82a0-244ec1884df2",
           "name": "12 ILS (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFKS [ATIS_CODE]. [TIME]. \r\nILS @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKS [ATIS_CODE]. [TIME]. \r\nILS @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -18427,7 +18427,7 @@
           "id": "fbde66a5-ab47-4fc3-b7cb-85cee003540a",
           "name": "30 RNP (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFKS [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKS [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -18436,7 +18436,7 @@
           "id": "bcb226ae-5f59-44ce-86da-4781746422a9",
           "name": "12 AFIS",
           "airportConditions": "",
-          "template": "@EFKS [ATIS_CODE]. [TIME]. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKS [ATIS_CODE]. [TIME]. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -18445,7 +18445,7 @@
           "id": "8c4ba20b-b2de-4670-b040-e7bf17e00f36",
           "name": "30 AFIS",
           "airportConditions": "",
-          "template": "@EFKS [ATIS_CODE]. [TIME]. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKS [ATIS_CODE]. [TIME]. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -18454,7 +18454,7 @@
           "id": "722f1fa3-072c-4f7b-9d38-0cba951b17a5",
           "name": "12 RNP",
           "airportConditions": "",
-          "template": "@EFKS [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKS [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -18463,7 +18463,7 @@
           "id": "70a2b9e7-f8e6-4742-98d5-a4e026b1fa69",
           "name": "30 VISUAL",
           "airportConditions": "",
-          "template": "@EFKS [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKS [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -18472,7 +18472,7 @@
           "id": "e184e5c9-a2be-4967-880a-fc4a36a85f20",
           "name": "12 VISUAL",
           "airportConditions": "",
-          "template": "EFKS [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "EFKS [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -20327,14 +20327,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -20346,8 +20346,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -20490,7 +20490,7 @@
           "id": "895dfd83-625d-459a-8f91-fb8250525c3d",
           "name": "34 ILS-Z (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFKT [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 34 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKT [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 34 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -20499,7 +20499,7 @@
           "id": "003f43eb-e8a3-4347-866b-6be5fb3ebee6",
           "name": "16 RNP (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFKT [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 16 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKT [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 16 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -20508,7 +20508,7 @@
           "id": "643b9a35-a9d8-406f-a29c-c9037c83dedb",
           "name": "34 AFIS",
           "airportConditions": "",
-          "template": "@EFKT [ATIS_CODE]. [TIME]. \r\nRWY 34 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKT [ATIS_CODE]. [TIME]. \r\nRWY 34 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -20517,7 +20517,7 @@
           "id": "46c0a0b4-7e85-4119-984e-4c67b4a5ef6c",
           "name": "16 AFIS",
           "airportConditions": "",
-          "template": "@EFKT [ATIS_CODE]. [TIME].  \r\nRWY 16 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKT [ATIS_CODE]. [TIME].  \r\nRWY 16 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -20526,7 +20526,7 @@
           "id": "c6e6ac5a-01df-4535-bd4c-badbc1fc6282",
           "name": "34 RNP",
           "airportConditions": "",
-          "template": "@EFKT [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 34 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKT [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 34 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -20536,7 +20536,7 @@
           "name": "16 LOC-Z",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFKT [ATIS_CODE]. [TIME]. \r\n@LOCZ @APCH. \r\nRWY 16 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKT [ATIS_CODE]. [TIME]. \r\n@LOCZ @APCH. \r\nRWY 16 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -20545,7 +20545,7 @@
           "id": "ee877e4e-3533-47e7-98de-2f11ce035855",
           "name": "34 VISUAL",
           "airportConditions": "",
-          "template": "@EFKT [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 34 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKT [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 34 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -20554,7 +20554,7 @@
           "id": "6a66e025-c152-49b1-9cf2-a9906fae538b",
           "name": "16 VISUAL",
           "airportConditions": "",
-          "template": "@EFKT [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 16 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKT [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 16 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -22419,14 +22419,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -22438,8 +22438,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -22582,7 +22582,7 @@
           "id": "f027f2ff-a593-4926-806c-69715ed3eec1",
           "name": "33 ILS-Z (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFKU [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 33 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKU [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 33 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -22591,7 +22591,7 @@
           "id": "f7dcc65c-ff3e-4219-ae74-54e48c275526",
           "name": "15 RNP (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFKU [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 15 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKU [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 15 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -22600,7 +22600,7 @@
           "id": "5e031b3e-ba63-4377-ae8d-2b6d96349558",
           "name": "33 RNP",
           "airportConditions": "",
-          "template": "@EFKU [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 33 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKU [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 33 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -22610,7 +22610,7 @@
           "name": "15 VOR",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFKU [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 15 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKU [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 15 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -22619,7 +22619,7 @@
           "id": "b29d1eb9-ffea-4aba-857f-3e69be2d42ad",
           "name": "33 VISUAL",
           "airportConditions": "",
-          "template": "2EFKU [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 33 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "2EFKU [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 33 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -22628,7 +22628,7 @@
           "id": "c27c76c0-f01d-43cc-ac0f-fa3d2b15490e",
           "name": "15 VISUAL",
           "airportConditions": "",
-          "template": "@EFKU [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 15 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFKU [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 15 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -24488,14 +24488,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -24507,8 +24507,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -24651,7 +24651,7 @@
           "id": "53bc7358-c0b3-4e85-907a-c4c3d439512e",
           "name": "06 ILS (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFLP [ATIS_CODE]. [TIME]. \r\nILS @APCH. \r\nRWY 06 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFLP [ATIS_CODE]. [TIME]. \r\nILS @APCH. \r\nRWY 06 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -24661,7 +24661,7 @@
           "name": "24 RNP (PRIMARY)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFLP [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 24 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFLP [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 24 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -24670,7 +24670,7 @@
           "id": "7c7f6437-41bf-4dcc-b112-7045281dcf0b",
           "name": "06 RNP",
           "airportConditions": "",
-          "template": "@EFLP [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 06 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFLP [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 06 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -24679,7 +24679,7 @@
           "id": "3e9d2fc7-4456-4420-b78b-62096f3e1a4d",
           "name": "24 VISUAL",
           "airportConditions": "",
-          "template": "@EFLP [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 24 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFLP [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 24 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -24688,7 +24688,7 @@
           "id": "3da15e82-108d-4517-a135-868ae43abf45",
           "name": "06 VISUAL",
           "airportConditions": "",
-          "template": "@EFLP [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 06 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFLP [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 06 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -26543,14 +26543,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -26562,8 +26562,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -26707,7 +26707,7 @@
           "name": "21 ILS-Z (PRIMARY)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFMA [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 21 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFMA [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 21 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -26716,7 +26716,7 @@
           "id": "32fadd8e-df9a-4d61-ae79-26818d2ef9ec",
           "name": "03 RNP (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFMA [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 03 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFMA [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 03 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -26725,7 +26725,7 @@
           "id": "b7074a80-4982-4c68-85bf-5a1ea943496b",
           "name": "21 RNP",
           "airportConditions": "",
-          "template": "@EFMA [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 21 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFMA [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 21 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -26734,7 +26734,7 @@
           "id": "91301fd9-244a-4213-bcbf-1bfc0098a55e",
           "name": "03 VOR",
           "airportConditions": "",
-          "template": "@EFMA [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 03 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFMA [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 03 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -26743,7 +26743,7 @@
           "id": "0a73d49f-41f7-40e1-9dc0-36f48083f530",
           "name": "21 VISUAL",
           "airportConditions": "",
-          "template": "@EFMA [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 21 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFMA [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 21 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -26752,7 +26752,7 @@
           "id": "02742848-42fa-4437-9688-87ccb2bf2ed4",
           "name": "03 VISUAL",
           "airportConditions": "",
-          "template": "@EFMA [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 03 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFMA [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 03 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -28612,14 +28612,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -28631,8 +28631,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -28775,7 +28775,7 @@
           "id": "670022ce-6c13-498b-89b4-479bf95d1c2f",
           "name": "11 AFIS",
           "airportConditions": "",
-          "template": "@EFMI [ATIS_CODE]. [TIME]. \r\nRWY 11 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFMI [ATIS_CODE]. [TIME]. \r\nRWY 11 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -28784,7 +28784,7 @@
           "id": "af859725-7c8c-45ff-bf60-687f65ac2270",
           "name": "29 AFIS",
           "airportConditions": "",
-          "template": "@EFMI [ATIS_CODE]. [TIME]. \r\nRWY 29 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFMI [ATIS_CODE]. [TIME]. \r\nRWY 29 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -30634,14 +30634,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -30653,8 +30653,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -30798,7 +30798,7 @@
           "name": "12 ILS-Z (PRIMARY)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFOU [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFOU [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -30807,7 +30807,7 @@
           "id": "f03f52ac-d5ea-4c4c-bacf-a29c0a25b390",
           "name": "30 RNP (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFOU [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFOU [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -30816,7 +30816,7 @@
           "id": "4c5635a7-356b-41cf-903e-7d5241e29272",
           "name": "12 RNP",
           "airportConditions": "",
-          "template": "@EFOU [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFOU [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -30825,7 +30825,7 @@
           "id": "736a53ee-14c8-415d-8001-6ef082e59411",
           "name": "30 VOR",
           "airportConditions": "",
-          "template": "@EFOU [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFOU [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -30834,7 +30834,7 @@
           "id": "1a549f07-fb8b-44ea-bb92-c75822026de6",
           "name": "12 VOR",
           "airportConditions": "",
-          "template": "@EFOU [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFOU [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -30843,7 +30843,7 @@
           "id": "926430fd-4dc9-428a-b742-6bccf08c6990",
           "name": "30 VISUAL",
           "airportConditions": "",
-          "template": "@EFOU [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFOU [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -30852,7 +30852,7 @@
           "id": "eedb3ae6-2d6d-4b9c-8285-be0038b784de",
           "name": "12 VISUAL",
           "airportConditions": "",
-          "template": "EFOU [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "EFOU [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -32717,14 +32717,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -32736,8 +32736,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -32881,7 +32881,7 @@
           "name": "30 ILS-Z (PRIMARY)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFPO [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFPO [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -32890,7 +32890,7 @@
           "id": "b3d11543-d953-448b-9486-a76bf34c8fa4",
           "name": "12 RNP (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFPO [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFPO [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -32899,7 +32899,7 @@
           "id": "d8249638-7a7f-45f3-863b-24d0b1a0d7aa",
           "name": "30 RNP",
           "airportConditions": "",
-          "template": "@EFPO [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFPO [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -32908,7 +32908,7 @@
           "id": "67f31941-509a-49a1-a517-61d743faeb43",
           "name": "12 VOR",
           "airportConditions": "",
-          "template": "@EFPO [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFPO [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -32917,7 +32917,7 @@
           "id": "9e43c880-e713-4fb8-ab5a-686a41545e46",
           "name": "30 VOR",
           "airportConditions": "",
-          "template": "@EFPO [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFPO [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -32926,7 +32926,7 @@
           "id": "4b44f9a0-0de7-42ab-b77c-2ce09b985c19",
           "name": "12 VISUAL",
           "airportConditions": "",
-          "template": "@EFPO [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFPO [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -32935,7 +32935,7 @@
           "id": "44228ce4-db11-45f3-8085-25b883a44d51",
           "name": "30 VISUAL",
           "airportConditions": "",
-          "template": "@EFPO [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFPO [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -34795,14 +34795,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -34814,8 +34814,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -34959,7 +34959,7 @@
           "name": "21 ILS-Z (PRIMARY)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFRO [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 21 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFRO [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 21 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -34968,7 +34968,7 @@
           "id": "bd96f0b9-02a4-4f47-84cf-4250131ea73c",
           "name": "03 RNP (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFRO [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 03 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFRO [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 03 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -34977,7 +34977,7 @@
           "id": "b68edcdc-0953-4a46-8182-1d4e98465d86",
           "name": "21 RNP",
           "airportConditions": "",
-          "template": "@EFRO [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 21 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFRO [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 21 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -34986,7 +34986,7 @@
           "id": "c2ff7629-5e1f-450a-a85e-6835294fafda",
           "name": "03 VOR",
           "airportConditions": "",
-          "template": "@EFRO [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 03 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFRO [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 03 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -34995,7 +34995,7 @@
           "id": "3eed2882-dac0-42b5-8481-a9c2a9d7ee8b",
           "name": "21 VOR",
           "airportConditions": "",
-          "template": "@EFRO [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 21 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFRO [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 21 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -35004,7 +35004,7 @@
           "id": "f336bb22-2c58-4fea-8340-6d39033edc77",
           "name": "03 VISUAL",
           "airportConditions": "",
-          "template": "@EFRO [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 03 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFRO [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 03 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -35013,7 +35013,7 @@
           "id": "30c9aa11-73a6-4730-8bda-8be63791c01c",
           "name": "21 VISUAL",
           "airportConditions": "",
-          "template": "@EFRO [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 21 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFRO [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 21 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -36893,14 +36893,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -36912,8 +36912,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -37057,7 +37057,7 @@
           "name": "12 AFIS",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFSA [ATIS_CODE]. [TIME]. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFSA [ATIS_CODE]. [TIME]. \r\nRWY 12 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -37066,7 +37066,7 @@
           "id": "79fc6058-6cc2-4a82-ac35-7a396b96f694",
           "name": "30 AFIS",
           "airportConditions": "",
-          "template": "@EFSA [ATIS_CODE]. [TIME]. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFSA [ATIS_CODE]. [TIME]. \r\nRWY 30 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -38916,14 +38916,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -38935,8 +38935,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -39079,7 +39079,7 @@
           "id": "9b0abcd2-1654-4eff-a178-6e50b54b7c77",
           "name": "32 AFIS",
           "airportConditions": "",
-          "template": "@EFSI [ATIS_CODE]. [TIME]. \r\nRWY 32 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFSI [ATIS_CODE]. [TIME]. \r\nRWY 32 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -39088,7 +39088,7 @@
           "id": "83c51419-044e-4cf6-ae3c-298344176b8e",
           "name": "14 AFIS",
           "airportConditions": "",
-          "template": "@EFSI [ATIS_CODE]. [TIME]. \r\nRWY 14 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFSI [ATIS_CODE]. [TIME]. \r\nRWY 14 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -40938,14 +40938,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -40957,8 +40957,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -41102,7 +41102,7 @@
           "name": "24 ILS-Z (PRIMARY)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFTP [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 24 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFTP [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 24 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -41111,7 +41111,7 @@
           "id": "a4907d84-514f-4658-8f35-1d0d0be02dad",
           "name": "06 RNP (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFTP [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 06 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFTP [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 06 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -41120,7 +41120,7 @@
           "id": "03d3bc73-f42a-4389-86b9-21e980d93f9f",
           "name": "24 RNP",
           "airportConditions": "",
-          "template": "@EFTP [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 24 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFTP [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 24 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -41129,7 +41129,7 @@
           "id": "f923f0e4-fdfd-414f-9f4e-e29aa82a7859",
           "name": "06 VOR",
           "airportConditions": "",
-          "template": "@EFTP [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 06 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFTP [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 06 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -41138,7 +41138,7 @@
           "id": "397f8487-6620-46bb-a543-9cf378cedfc6",
           "name": "24 VOR",
           "airportConditions": "",
-          "template": "@EFTP [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 24 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFTP [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 24 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -41147,7 +41147,7 @@
           "id": "137f9cfb-a7ff-43a3-9c57-cb0be2946db2",
           "name": "06 VISUAL",
           "airportConditions": "",
-          "template": "@EFTP [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 06 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFTP [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 06 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -43036,14 +43036,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -43055,8 +43055,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -43199,7 +43199,7 @@
           "id": "84f62ba0-3110-479e-a8ee-9165e5856c57",
           "name": "26 ILS (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFTU [ATIS_CODE]. [TIME]. \r\nILS @APCH. \r\nRWY 26 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFTU [ATIS_CODE]. [TIME]. \r\nILS @APCH. \r\nRWY 26 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -43208,7 +43208,7 @@
           "id": "a56f07f2-f440-4676-934b-471d1134c461",
           "name": "08 RNP (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFTU [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 08 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFTU [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 08 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -43217,7 +43217,7 @@
           "id": "bf95745b-17a3-4ed5-84a8-e63692bc5c27",
           "name": "26 RNP",
           "airportConditions": "",
-          "template": "@EFTU [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 26 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFTU [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 26 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -43226,7 +43226,7 @@
           "id": "b7ba7393-5a9b-4da0-8490-9947c39ef66f",
           "name": "08 VISUAL",
           "airportConditions": "",
-          "template": "@EFTU [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 08 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFTU [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 08 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -43235,7 +43235,7 @@
           "id": "bdb8b4dc-a46b-42d9-91fb-c15a9fa7f7aa",
           "name": "26 VISUAL",
           "airportConditions": "",
-          "template": "@EFTU [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 26 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFTU [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 26 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -45110,14 +45110,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -45129,8 +45129,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -45273,7 +45273,7 @@
           "id": "a36e2bde-799b-42b9-b3e9-4bcf82030dd9",
           "name": "25 ILS (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFUT [ATIS_CODE]. [TIME]. \r\nILS @APCH. \r\nRWY 25 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFUT [ATIS_CODE]. [TIME]. \r\nILS @APCH. \r\nRWY 25 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -45283,7 +45283,7 @@
           "name": "07 RNP (PRIMARY)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFUT [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 07 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFUT [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 07 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -45292,7 +45292,7 @@
           "id": "81b76b8e-e14f-46ab-ac2d-037f32c27b1f",
           "name": "25 RNP",
           "airportConditions": "",
-          "template": "@EFUT [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 25 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFUT [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 25 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -45301,7 +45301,7 @@
           "id": "13be41d3-32a8-456f-b150-2a7c823ca9be",
           "name": "07 VISUAL",
           "airportConditions": "",
-          "template": "@EFUT [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 07 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFUT [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 07 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -45310,7 +45310,7 @@
           "id": "7bec2bc6-7150-434f-90c1-7fd5ce3f920b",
           "name": "25 VISUAL",
           "airportConditions": "",
-          "template": "@EFUT [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 25 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFUT [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 25 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -47165,14 +47165,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -47184,8 +47184,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -47329,7 +47329,7 @@
           "name": "16 ILS-Z (PRIMARY)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFVA [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 16 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFVA [ATIS_CODE]. [TIME]. \r\n@ILSZ @APCH. \r\nRWY 16 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -47338,7 +47338,7 @@
           "id": "8956e8c4-af8f-44a6-bc4f-bdca9137c75d",
           "name": "34 RNP (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFVA [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 34 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFVA [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 34 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -47348,7 +47348,7 @@
           "name": "16 RNP",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFVA [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 16 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFVA [ATIS_CODE]. [TIME]. \r\nRNP @APCH. \r\nRWY 16 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -47358,7 +47358,7 @@
           "name": "34 VOR",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFVA [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 34 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFVA [ATIS_CODE]. [TIME]. \r\nVOR @APCH. \r\nRWY 34 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -47367,7 +47367,7 @@
           "id": "6d9fc65e-f3d8-43a6-a84d-9da30cbb6fc4",
           "name": "16 VISUAL",
           "airportConditions": "",
-          "template": "@EFVA [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 16 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFVA [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 16 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -47376,7 +47376,7 @@
           "id": "65a09edc-8c80-42ec-8ac9-9ffdce2f3da8",
           "name": "34 VISUAL",
           "airportConditions": "",
-          "template": "@EFVA [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 34 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
+          "template": "@EFVA [ATIS_CODE]. [TIME]. \r\nVISUAL @APCH. \r\nRWY 34 IN USE. \r\n[ARPT_COND] \r\n[TL]. \r\n@AUTO. \r\n[WIND]. \r\n[VIS] \r\n[NOTAMS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r",
           "externalGenerator": {
             "enabled": false
           }
@@ -49246,14 +49246,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -49265,8 +49265,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -49410,7 +49410,7 @@
           "name": "DEP 22R AND 22L",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWYS_22R_AND_22L.\r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWYS_22R_AND_22L.\r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49420,7 +49420,7 @@
           "name": "DEP 04R AND 15",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWYS_04R_AND_15. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWYS_04R_AND_15. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49430,7 +49430,7 @@
           "name": "DEP 22R",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @22R. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @22R. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49439,7 +49439,7 @@
           "id": "bea8344e-dc85-471d-881f-155445b50a99",
           "name": "DEP 22L",
           "airportConditions": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @22L. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS]  \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @22L. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS]  \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49448,7 +49448,7 @@
           "id": "cfaa5769-ab12-41ad-a450-55acb61b99ff",
           "name": "DEP 04L",
           "airportConditions": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @04L. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @04L. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49457,7 +49457,7 @@
           "id": "0ede3073-5640-44e8-b4bb-99a65725e7ed",
           "name": "DEP 04R",
           "airportConditions": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @04R. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @04R. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49466,7 +49466,7 @@
           "id": "a551da91-47c2-4691-b518-5e35ae38f45a",
           "name": "DEP 15",
           "airportConditions": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME].  \r\n@DEP_RWY @15. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME].  \r\n@DEP_RWY @15. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49475,7 +49475,7 @@
           "id": "8814534d-5567-46f6-a87f-b292497fe051",
           "name": "DEP 33",
           "airportConditions": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @33. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @33. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49484,7 +49484,7 @@
           "id": "36cf4053-9332-4dec-943c-b3c57a6a2b2c",
           "name": "DEP 15 LVP",
           "airportConditions": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @15. \r\n[ARPT_COND] \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\nDEPARTING AIRCRAFT SHALL USE CATEGORY 2 OR 3 HOLDING POINTS. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @15. \r\n[ARPT_COND] \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\nDEPARTING AIRCRAFT SHALL USE CATEGORY 2 OR 3 HOLDING POINTS. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49494,7 +49494,7 @@
           "name": "DEP 04R LVP",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @04R. \r\n[ARPT_COND] \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\nDEPARTING AIRCRAFT SHALL USE CATEGORY 2 OR 3 HOLDING POINTS. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @04R. \r\n[ARPT_COND] \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\nDEPARTING AIRCRAFT SHALL USE CATEGORY 2 OR 3 HOLDING POINTS. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49503,7 +49503,7 @@
           "id": "405b5405-8d0a-4330-ad38-e7253440508e",
           "name": "DEP 22L LVP",
           "airportConditions": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\nDEP RWY 22L. \r\n[ARPT_COND] \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\nDEPARTING AIRCRAFT SHALL USE CATEGORY 2 OR 3 HOLDING POINTS. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\nDEP RWY 22L. \r\n[ARPT_COND] \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\nDEPARTING AIRCRAFT SHALL USE CATEGORY 2 OR 3 HOLDING POINTS. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49512,7 +49512,7 @@
           "id": "b8686b11-df24-410a-ad19-afc22c8f8131",
           "name": "DEP 22R LVP",
           "airportConditions": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\nDEP RWY 22R. \r\n[ARPT_COND] \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\nDEPARTING AIRCRAFT SHALL USE CATEGORY 2 OR 3 HOLDING POINTS. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\nDEP RWY 22R. \r\n[ARPT_COND] \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\nDEPARTING AIRCRAFT SHALL USE CATEGORY 2 OR 3 HOLDING POINTS. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51389,14 +51389,14 @@
             }
           },
           "template": {
-            "text": "{weather}",
+            "text": "{weather}.",
             "voice": "{weather}"
           }
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "text": "RECENT {weather}.",
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -51408,8 +51408,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "WX RADAR OBSERVED CB.",
+            "voice": "WEATHER RADAR OBSERVED C-B"
           },
           "types": {
             "FEW": {
@@ -51553,7 +51553,7 @@
           "name": "ARR 15",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY 15. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY 15. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51563,7 +51563,7 @@
           "name": "ARR 22L",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @22L. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @22L. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51572,7 +51572,7 @@
           "id": "eae9cb8b-d56d-40a1-9b04-84387d74ff52",
           "name": "ARR 04L",
           "airportConditions": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @04L. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @04L. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51581,7 +51581,7 @@
           "id": "436c6b0b-23fb-473b-b49e-b1d65e12b93b",
           "name": "ARR 04R",
           "airportConditions": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @04R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @04R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51590,7 +51590,7 @@
           "id": "238b9dde-0620-4ce2-a32b-87c837b0a061",
           "name": "ARR 22R",
           "airportConditions": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @22R. \r\n[ARPT_COND] \r\n[TL].  \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @22R. \r\n[ARPT_COND] \r\n[TL].  \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51600,7 +51600,7 @@
           "name": "ARR 33",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@RNP. \r\nARR RWY 33. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@RNP. \r\nARR RWY 33. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51610,7 +51610,7 @@
           "name": "ARR 04L LVP (OPEN A)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @04L. \r\n[ARPT_COND] \r\n[TL]. \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @04L. \r\n[ARPT_COND] \r\n[TL]. \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51620,7 +51620,7 @@
           "name": "ARR 22R LVP (OPEN T)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME].  \r\n@ILS. \r\nARR RWY @22R. \r\n[ARPT_COND] \r\n[TL]. \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME].  \r\n@ILS. \r\nARR RWY @22R. \r\n[ARPT_COND] \r\n[TL]. \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51629,7 +51629,7 @@
           "id": "a47a9453-a1c2-44b1-9a00-db7d96f42ab4",
           "name": "ARR 04R LVP",
           "airportConditions": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @04R. \r\n[ARPT_COND] \r\n[TL]. \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @04R. \r\n[ARPT_COND] \r\n[TL]. \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51638,7 +51638,7 @@
           "id": "a47a9453-a1c2-44b1-9a00-db7d96f42ab4",
           "name": "ARR 22L LVP",
           "airportConditions": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @22L. \r\n[ARPT_COND] \r\n[TL]. \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @22L. \r\n[ARPT_COND] \r\n[TL]. \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51648,7 +51648,7 @@
           "name": "SOIR 04 INDEPENDENT",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@INDEP. \r\n@ILS. \r\n@ARR_RWYS_04L_AND_04R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@INDEP. \r\n@ILS. \r\n@ARR_RWYS_04L_AND_04R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51658,7 +51658,7 @@
           "name": "SOIR 22 INDEPENDENT",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@INDEP.\r\n@ILS.\r\n@ARR_RWYS_22L_AND_22R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@INDEP.\r\n@ILS.\r\n@ARR_RWYS_22L_AND_22R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51667,7 +51667,7 @@
           "id": "90a1d289-dbb4-42fd-a3bd-ee4e4166388a",
           "name": "SOIR 04 DEPENDENT",
           "airportConditions": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@DEPEND.\r\n@ILS.\r\n@ARR_RWYS_04L_AND_04R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@DEPEND.\r\n@ILS.\r\n@ARR_RWYS_04L_AND_04R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51677,7 +51677,7 @@
           "name": "SOIR 22 DEPENDENT",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@DEPEND.\r\n@ILS.\r\n@ARR_RWYS_22L_AND_22R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX]. \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@DEPEND.\r\n@ILS.\r\n@ARR_RWYS_22L_AND_22R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
