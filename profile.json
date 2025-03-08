@@ -1,12 +1,13 @@
 {
-  "version": 7,
-  "name": "Finland 28 FEB 2025 1",
-  "id": "acf22988-5909-4074-b837-99bfc507faa4",
+  "version": 8,
+  "name": "Finland 08 MAR 2025 1",
+  "id": "770c51fd-7f8e-41e3-8831-8fea0a030a21",
   "updateUrl": "https://vatis.lusep.fi/profile.json",
-  "updateSerial": 2025022801,
+  "updateSerial": 2025030801,
   "stations": [
     {
       "id": "58db8d2b-0fba-4ba4-87d2-e8b2620c9cca",
+      "ordinal": 0,
       "identifier": "EFET",
       "name": "Enontekio",
       "atisType": "Combined",
@@ -1967,7 +1968,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -2030,6 +2032,7 @@
     },
     {
       "id": "7dbec5ff-0cd2-40c1-b177-3759da634fbb",
+      "ordinal": 0,
       "identifier": "EFHA",
       "name": "Halli",
       "atisType": "Combined",
@@ -3990,7 +3993,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -4099,6 +4103,7 @@
     },
     {
       "id": "822c5d9d-0cd9-4d7f-bf93-6d5067868d4c",
+      "ordinal": 0,
       "identifier": "EFIV",
       "name": "Ivalo",
       "atisType": "Combined",
@@ -6059,7 +6064,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -6170,6 +6176,7 @@
     },
     {
       "id": "7b1f9017-0f3d-419e-ad0d-cfc26b8ec60f",
+      "ordinal": 0,
       "identifier": "EFJO",
       "name": "Joensuu",
       "atisType": "Combined",
@@ -8130,7 +8137,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -8224,6 +8232,7 @@
     },
     {
       "id": "72c3e64a-57ce-4cc8-a12d-350cc3488a33",
+      "ordinal": 0,
       "identifier": "EFJY",
       "name": "Jyvaskyla",
       "atisType": "Combined",
@@ -10184,7 +10193,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -10321,6 +10331,7 @@
     },
     {
       "id": "d0ac7752-1fe6-4f90-b674-5d4b78a3f4e8",
+      "ordinal": 0,
       "identifier": "EFKE",
       "name": "Kemi-Tornio",
       "atisType": "Combined",
@@ -12281,7 +12292,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -12374,6 +12386,7 @@
     },
     {
       "id": "c4ff5e45-8d6e-4e72-bee4-e843c07510e2",
+      "ordinal": 0,
       "identifier": "EFKI",
       "name": "Kajaani",
       "atisType": "Combined",
@@ -14334,7 +14347,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -14396,6 +14410,7 @@
     },
     {
       "id": "73b8ab9f-5f5e-401f-a62d-b154842786bd",
+      "ordinal": 0,
       "identifier": "EFKK",
       "name": "Kokkola-Pietarsaari",
       "atisType": "Combined",
@@ -16356,7 +16371,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -16450,6 +16466,7 @@
     },
     {
       "id": "c2fe5125-175a-4e2e-958e-cba0d2acd7b4",
+      "ordinal": 0,
       "identifier": "EFKS",
       "name": "Kuusamo",
       "atisType": "Combined",
@@ -16580,7 +16597,6 @@
               "text": "FBL FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
-
             "-FZDZRA": {
               "text": "FBL FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
@@ -18411,7 +18427,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -18522,6 +18539,7 @@
     },
     {
       "id": "ca53d95e-0274-4fa6-bf9d-3dbe6734d9ab",
+      "ordinal": 0,
       "identifier": "EFKT",
       "name": "Kittila",
       "atisType": "Combined",
@@ -18652,7 +18670,6 @@
               "text": "FBL FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
-
             "-FZDZRA": {
               "text": "FBL FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
@@ -20483,7 +20500,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -20614,6 +20632,7 @@
     },
     {
       "id": "62d4a2a6-0cc0-455c-a97d-ea2fae982ce7",
+      "ordinal": 0,
       "identifier": "EFKU",
       "name": "Kuopio",
       "atisType": "Combined",
@@ -20744,7 +20763,6 @@
               "text": "FBL FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
-
             "-FZDZRA": {
               "text": "FBL FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
@@ -22575,7 +22593,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -22683,6 +22702,7 @@
     },
     {
       "id": "89bbc2c4-d59e-40f0-a885-0bb33329400f",
+      "ordinal": 0,
       "identifier": "EFLP",
       "name": "Lappeenranta",
       "atisType": "Combined",
@@ -22813,7 +22833,6 @@
               "text": "FBL FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
-
             "-FZDZRA": {
               "text": "FBL FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
@@ -24644,7 +24663,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -24738,6 +24758,7 @@
     },
     {
       "id": "de9ede30-0bc5-461a-a0f3-643456edbcc8",
+      "ordinal": 0,
       "identifier": "EFMA",
       "name": "Mariehamn",
       "atisType": "Combined",
@@ -24868,7 +24889,6 @@
               "text": "FBL FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
-
             "-FZDZRA": {
               "text": "FBL FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
@@ -26699,7 +26719,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -26807,6 +26828,7 @@
     },
     {
       "id": "0e6bb3e2-ced6-40d3-ad26-176825f8a155",
+      "ordinal": 0,
       "identifier": "EFMI",
       "name": "Mikkeli",
       "atisType": "Combined",
@@ -26937,7 +26959,6 @@
               "text": "FBL FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
-
             "-FZDZRA": {
               "text": "FBL FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
@@ -28768,7 +28789,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -28829,6 +28851,7 @@
     },
     {
       "id": "427ad0c0-d16e-4428-9199-13dffad0f179",
+      "ordinal": 0,
       "identifier": "EFOU",
       "name": "Oulu",
       "atisType": "Combined",
@@ -28959,7 +28982,6 @@
               "text": "FBL FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
-
             "-FZDZRA": {
               "text": "FBL FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
@@ -30790,7 +30812,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -30912,6 +30935,7 @@
     },
     {
       "id": "4a62b16e-a8e1-474a-ad24-b2612dfdab3e",
+      "ordinal": 0,
       "identifier": "EFPO",
       "name": "Pori",
       "atisType": "Combined",
@@ -31042,7 +31066,6 @@
               "text": "FBL FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
-
             "-FZDZRA": {
               "text": "FBL FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
@@ -32873,7 +32896,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -32990,6 +33014,7 @@
     },
     {
       "id": "24b720a6-737a-450e-aac7-4ec3f8654c46",
+      "ordinal": 0,
       "identifier": "EFRO",
       "name": "Rovaniemi",
       "atisType": "Combined",
@@ -33120,7 +33145,6 @@
               "text": "FBL FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
-
             "-FZDZRA": {
               "text": "FBL FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
@@ -34951,7 +34975,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -35088,6 +35113,7 @@
     },
     {
       "id": "208e8c9e-48fa-4d28-ad2a-99f3c255c374",
+      "ordinal": 0,
       "identifier": "EFSA",
       "name": "Savonlinna",
       "atisType": "Combined",
@@ -35218,7 +35244,6 @@
               "text": "FBL FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
-
             "-FZDZRA": {
               "text": "FBL FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
@@ -37049,7 +37074,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -37111,6 +37137,7 @@
     },
     {
       "id": "fa131b77-7352-4ec5-8822-33c10db6e329",
+      "ordinal": 0,
       "identifier": "EFSI",
       "name": "Seinajoki",
       "atisType": "Combined",
@@ -37241,7 +37268,6 @@
               "text": "FBL FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
-
             "-FZDZRA": {
               "text": "FBL FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
@@ -39072,7 +39098,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -39133,6 +39160,7 @@
     },
     {
       "id": "6908490c-9a69-4268-aed8-5ab26dd5b0e3",
+      "ordinal": 0,
       "identifier": "EFTP",
       "name": "Tampere-Pirkkala",
       "atisType": "Combined",
@@ -39263,7 +39291,6 @@
               "text": "FBL FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
-
             "-FZDZRA": {
               "text": "FBL FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
@@ -41094,7 +41121,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -41231,6 +41259,7 @@
     },
     {
       "id": "dec7cf88-2958-4488-87cc-5a7842e79c27",
+      "ordinal": 0,
       "identifier": "EFTU",
       "name": "Turku",
       "atisType": "Combined",
@@ -41361,7 +41390,6 @@
               "text": "FBL FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
-
             "-FZDZRA": {
               "text": "FBL FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
@@ -43192,7 +43220,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -43305,6 +43334,7 @@
     },
     {
       "id": "d6aa204c-1e36-4e08-a4c8-7da25b0b3262",
+      "ordinal": 0,
       "identifier": "EFUT",
       "name": "Utti",
       "atisType": "Combined",
@@ -43435,7 +43465,6 @@
               "text": "FBL FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
-
             "-FZDZRA": {
               "text": "FBL FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
@@ -45266,7 +45295,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -45360,6 +45390,7 @@
     },
     {
       "id": "e9c9b19b-7dfe-4ecf-8574-4b4f294f9cfc",
+      "ordinal": 0,
       "identifier": "EFVA",
       "name": "Vaasa",
       "atisType": "Combined",
@@ -45490,7 +45521,6 @@
               "text": "FBL FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
-
             "-FZDZRA": {
               "text": "FBL FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
@@ -47321,7 +47351,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -47441,6 +47472,7 @@
     },
     {
       "id": "dc982d21-598a-4fdc-99b4-8c02c020a7d2",
+      "ordinal": 0,
       "identifier": "EFHK",
       "name": "HEL",
       "atisType": "Departure",
@@ -47571,7 +47603,6 @@
               "text": "FBL FZDZ",
               "spoken": "Light Freezing Drizzle"
             },
-
             "-FZDZRA": {
               "text": "FBL FZDZRA",
               "spoken": "Light Freezing Drizzle And Rain"
@@ -49402,7 +49433,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -49410,7 +49442,7 @@
           "name": "DEP 22R AND 22L",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWYS_22R_AND_22L.\r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWYS_22R_AND_22L.\r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49420,7 +49452,7 @@
           "name": "DEP 04R AND 15",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWYS_04R_AND_15. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWYS_04R_AND_15. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49430,7 +49462,7 @@
           "name": "DEP 22R",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @22R. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @22R. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49439,7 +49471,7 @@
           "id": "bea8344e-dc85-471d-881f-155445b50a99",
           "name": "DEP 22L",
           "airportConditions": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @22L. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS]  \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @22L. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS]  \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49448,7 +49480,7 @@
           "id": "cfaa5769-ab12-41ad-a450-55acb61b99ff",
           "name": "DEP 04L",
           "airportConditions": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @04L. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @04L. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49457,7 +49489,7 @@
           "id": "0ede3073-5640-44e8-b4bb-99a65725e7ed",
           "name": "DEP 04R",
           "airportConditions": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @04R. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @04R. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49466,7 +49498,7 @@
           "id": "a551da91-47c2-4691-b518-5e35ae38f45a",
           "name": "DEP 15",
           "airportConditions": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME].  \r\n@DEP_RWY @15. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME].  \r\n@DEP_RWY @15. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49475,7 +49507,7 @@
           "id": "8814534d-5567-46f6-a87f-b292497fe051",
           "name": "DEP 33",
           "airportConditions": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @33. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @33. \r\n[ARPT_COND] \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49484,7 +49516,7 @@
           "id": "36cf4053-9332-4dec-943c-b3c57a6a2b2c",
           "name": "DEP 15 LVP",
           "airportConditions": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @15. \r\n[ARPT_COND] \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\nDEPARTING AIRCRAFT SHALL USE CATEGORY 2 OR 3 HOLDING POINTS. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @15. \r\n[ARPT_COND] \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\nDEPARTING AIRCRAFT SHALL USE CATEGORY 2 OR 3 HOLDING POINTS. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49494,7 +49526,7 @@
           "name": "DEP 04R LVP",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @04R. \r\n[ARPT_COND] \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\nDEPARTING AIRCRAFT SHALL USE CATEGORY 2 OR 3 HOLDING POINTS. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\n@DEP_RWY @04R. \r\n[ARPT_COND] \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\nDEPARTING AIRCRAFT SHALL USE CATEGORY 2 OR 3 HOLDING POINTS. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49503,7 +49535,7 @@
           "id": "405b5405-8d0a-4330-ad38-e7253440508e",
           "name": "DEP 22L LVP",
           "airportConditions": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\nDEP RWY 22L. \r\n[ARPT_COND] \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\nDEPARTING AIRCRAFT SHALL USE CATEGORY 2 OR 3 HOLDING POINTS. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\nDEP RWY 22L. \r\n[ARPT_COND] \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\nDEPARTING AIRCRAFT SHALL USE CATEGORY 2 OR 3 HOLDING POINTS. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49512,7 +49544,7 @@
           "id": "b8686b11-df24-410a-ad19-afc22c8f8131",
           "name": "DEP 22R LVP",
           "airportConditions": "",
-          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\nDEP RWY 22R. \r\n[ARPT_COND] \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\nDEPARTING AIRCRAFT SHALL USE CATEGORY 2 OR 3 HOLDING POINTS. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKD [ATIS_CODE]. \r\n[TIME]. \r\nDEP RWY 22R. \r\n[ARPT_COND] \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\nDEPARTING AIRCRAFT SHALL USE CATEGORY 2 OR 3 HOLDING POINTS. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -49585,6 +49617,7 @@
     },
     {
       "id": "7bd7ec42-91a4-420a-af89-e156fbd64a77",
+      "ordinal": 0,
       "identifier": "EFHK",
       "name": "HEL",
       "atisType": "Arrival",
@@ -51545,7 +51578,8 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "US Female"
+        "voice": "US Female",
+        "speechRate": 150
       },
       "presets": [
         {
@@ -51553,7 +51587,7 @@
           "name": "ARR 15",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY 15. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY 15. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51563,7 +51597,7 @@
           "name": "ARR 22L",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @22L. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @22L. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51572,7 +51606,7 @@
           "id": "eae9cb8b-d56d-40a1-9b04-84387d74ff52",
           "name": "ARR 04L",
           "airportConditions": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @04L. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @04L. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51581,7 +51615,7 @@
           "id": "436c6b0b-23fb-473b-b49e-b1d65e12b93b",
           "name": "ARR 04R",
           "airportConditions": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @04R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @04R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51590,7 +51624,7 @@
           "id": "238b9dde-0620-4ce2-a32b-87c837b0a061",
           "name": "ARR 22R",
           "airportConditions": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @22R. \r\n[ARPT_COND] \r\n[TL].  \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @22R. \r\n[ARPT_COND] \r\n[TL].  \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51600,7 +51634,7 @@
           "name": "ARR 33",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@RNP. \r\nARR RWY 33. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@RNP. \r\nARR RWY 33. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51610,7 +51644,7 @@
           "name": "ARR 04L LVP (OPEN A)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @04L. \r\n[ARPT_COND] \r\n[TL]. \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @04L. \r\n[ARPT_COND] \r\n[TL]. \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51620,7 +51654,7 @@
           "name": "ARR 22R LVP (OPEN T)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME].  \r\n@ILS. \r\nARR RWY @22R. \r\n[ARPT_COND] \r\n[TL]. \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME].  \r\n@ILS. \r\nARR RWY @22R. \r\n[ARPT_COND] \r\n[TL]. \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51629,7 +51663,7 @@
           "id": "a47a9453-a1c2-44b1-9a00-db7d96f42ab4",
           "name": "ARR 04R LVP",
           "airportConditions": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @04R. \r\n[ARPT_COND] \r\n[TL]. \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @04R. \r\n[ARPT_COND] \r\n[TL]. \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51638,7 +51672,7 @@
           "id": "a47a9453-a1c2-44b1-9a00-db7d96f42ab4",
           "name": "ARR 22L LVP",
           "airportConditions": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @22L. \r\n[ARPT_COND] \r\n[TL]. \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@ILS. \r\nARR RWY @22L. \r\n[ARPT_COND] \r\n[TL]. \r\nLOW VISIBILITY PROCEDURES IN OPERATION. \r\n[WIND]. \r\n[VIS] \r\n@RVR_VALUES_AVBL_ON_ATC_FREQ. \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51648,7 +51682,7 @@
           "name": "SOIR 04 INDEPENDENT",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@INDEP. \r\n@ILS. \r\n@ARR_RWYS_04L_AND_04R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@INDEP. \r\n@ILS. \r\n@ARR_RWYS_04L_AND_04R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51658,7 +51692,7 @@
           "name": "SOIR 22 INDEPENDENT",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@INDEP.\r\n@ILS.\r\n@ARR_RWYS_22L_AND_22R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@INDEP.\r\n@ILS.\r\n@ARR_RWYS_22L_AND_22R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51667,7 +51701,7 @@
           "id": "90a1d289-dbb4-42fd-a3bd-ee4e4166388a",
           "name": "SOIR 04 DEPENDENT",
           "airportConditions": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@DEPEND.\r\n@ILS.\r\n@ARR_RWYS_04L_AND_04R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@DEPEND.\r\n@ILS.\r\n@ARR_RWYS_04L_AND_04R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
@@ -51677,7 +51711,7 @@
           "name": "SOIR 22 DEPENDENT",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@DEPEND.\r\n@ILS.\r\n@ARR_RWYS_22L_AND_22R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND] \r\n[NOTAMS] \r\n[CLOSING]. ",
+          "template": "@EFHKA [ATIS_CODE]. \r\n[TIME]. \r\n@DEPEND.\r\n@ILS.\r\n@ARR_RWYS_22L_AND_22R. \r\n[ARPT_COND] \r\n[TL]. \r\n[WIND]. \r\n[VIS] \r\n[PRESENT_WX] \r\n[CLOUDS] \r\n[TEMP] [DEW] [PRESSURE] \r\n[WS] \r\n[RECENT_WX] \r\n[TREND]. \r\n[NOTAMS] \r\n[CLOSING]. ",
           "externalGenerator": {
             "enabled": false
           }
