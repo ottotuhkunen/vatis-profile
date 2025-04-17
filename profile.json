@@ -1,9 +1,8 @@
 {
-  "version": 9,
-  "name": "Finland 31 MAR 2025 1",
-  "id": "770c51fd-7f8e-41e3-8831-8fea0a030a21",
+  "name": "Finland 17 APR 2025 1",
+  "id": "a6cb8582-9fc7-4882-ac09-0d69ccaed807",
   "updateUrl": "https://vatis.lusep.fi/profile.json",
-  "updateSerial": 2025033101,
+  "updateSerial": 2025041701,
   "stations": [
     {
       "id": "58db8d2b-0fba-4ba4-87d2-e8b2620c9cca",
@@ -8143,9 +8142,9 @@
       "presets": [
         {
           "id": "ec6aaaa4-c69c-4826-b827-53a3b0e2538f",
-          "name": "28 ILS (PRIMARY)",
+          "name": "28 ILS-Z (PRIMARY)",
           "airportConditions": "",
-          "template": "@EFJO [ATIS_CODE]. [TIME]. ILS @APCH. RWY 28 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
+          "template": "@EFJO [ATIS_CODE]. [TIME]. @ILSZ @APCH. RWY 28 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -8186,6 +8185,15 @@
           "externalGenerator": {
             "enabled": false
           }
+        },
+        {
+          "id": "b6cdc246-8e72-4ad1-8a11-a4ed8c689b30",
+          "name": "28 ILS-X",
+          "airportConditions": "",
+          "template": "@EFJO [ATIS_CODE]. [TIME]. @ILSX @APCH. RWY 28 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
         }
       ],
       "contractions": [
@@ -8213,6 +8221,16 @@
           "variableName": "DEP_TFC_CONTACT_EFIN",
           "text": "DEP TFC CONTACT HELSINKI CTL.",
           "voice": "DEPARTING TRAFFIC CONTACT HELSINKI CONTROL."
+        },
+        {
+          "variableName": "ILSZ",
+          "text": "ILS Z",
+          "voice": "ILS ZULU"
+        },
+        {
+          "variableName": "ILSX",
+          "text": "ILS X",
+          "voice": "ILS X-RAY"
         }
       ],
       "airportConditionDefinitions": [
@@ -35042,6 +35060,24 @@
           "externalGenerator": {
             "enabled": false
           }
+        },
+        {
+          "id": "f2630382-36fa-476b-8190-40fe183a0732",
+          "name": "21C RNP (15 MAY - 09 JUL)",
+          "airportConditions": "",
+          "template": "@EFRO [ATIS_CODE]. [TIME]. RNP @APCH. RWY 21C IN USE. WIP_21C. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "6c5fbf8e-e06d-433e-bd4a-2159b45e04a0",
+          "name": "03 RNP (15 MAY - 09 JUL)",
+          "airportConditions": "",
+          "template": "@EFRO [ATIS_CODE]. [TIME]. RNP @APCH. RWY 03 IN USE. WIP_21C. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
         }
       ],
       "contractions": [
@@ -35079,6 +35115,11 @@
           "variableName": "ILSZ",
           "text": "ILS Z",
           "voice": "ILS ZULU"
+        },
+        {
+          "variableName": "WIP_21C",
+          "text": "WRNG OBS DISPLACED THR RWY 21 CENTER, LDA 2702M",
+          "voice": "WARNING. OBSERVE DISPLACED THRESHOLD RUNWAY TWO ONE CENTER. LANDING DISTANCE AVAILABLE TWO THOUSAND SEVEN HUNDERED AND TWO METERS"
         }
       ],
       "airportConditionDefinitions": [
@@ -51792,5 +51833,6 @@
       "airportConditionDefinitions": [],
       "notamDefinitions": []
     }
-  ]
+  ],
+  "version": 9
 }
