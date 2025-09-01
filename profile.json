@@ -1,8 +1,8 @@
 {
-  "name": "Finland 12 JUN 2025 1",
+  "name": "Finland 01 SEP 2025 1",
   "id": "601d106c-f2cc-442e-9762-62b7648fa6d5",
   "updateUrl": "https://vatis.lusep.fi/profile.json",
-  "updateSerial": 2025061201,
+  "updateSerial": 2025090101,
   "stations": [
     {
       "id": "58db8d2b-0fba-4ba4-87d2-e8b2620c9cca",
@@ -35517,70 +35517,6 @@
           }
         },
         {
-          "id": "f2630382-36fa-476b-8190-40fe183a0732",
-          "ordinal": 3,
-          "name": "21C RNP (15 MAY - 10 JUL)",
-          "airportConditions": "",
-          "template": "@EFRO [ATIS_CODE]. [TIME]. RNP @APCH. RWY 21C IN USE. [ARPT_COND] [TL]. WIP_21C. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "6c5fbf8e-e06d-433e-bd4a-2159b45e04a0",
-          "ordinal": 4,
-          "name": "03 RNP (15 MAY - 10 JUL)",
-          "airportConditions": "",
-          "template": "@EFRO [ATIS_CODE]. [TIME]. RNP @APCH. RWY 03 IN USE. [ARPT_COND] [TL]. @WIP_21C. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "b76fe047-b27e-4576-bb76-4b09941cd520",
-          "ordinal": 5,
-          "name": "03C RNP (10 JUL - 04 SEP)",
-          "airportConditions": "",
-          "template": "@EFRO [ATIS_CODE]. [TIME]. RNP @APCH. RWY 03C IN USE. [ARPT_COND] [TL]. @WIP_03C. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "be71473f-8853-4c2b-b9cd-f48ba7c0cb2c",
-          "ordinal": 6,
-          "name": "21 ILS-Z (10 JUL - 04 SEP)",
-          "airportConditions": "",
-          "template": "@EFRO [ATIS_CODE]. [TIME]. @ILSZ @APCH. RWY 21 IN USE. [ARPT_COND] [TL]. @WIP_03C. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
           "id": "c2ff7629-5e1f-450a-a85e-6835294fafda",
           "ordinal": 7,
           "name": "03 VOR",
@@ -52627,3 +52563,4 @@
   ],
   "version": 10
 }
+
