@@ -1,8 +1,8 @@
 {
-  "name": "Finland 02 OCT 2025 1",
-  "id": "601d106c-f2cc-442e-9762-62b7648fa6d5",
+  "name": "Finland 11 JUN 2026 1",
+  "id": "5ceb6103-f4c7-4c36-933e-5676948142c7",
   "updateUrl": "https://vatis.lusep.fi/profile.json",
-  "updateSerial": 2025100201,
+  "updateSerial": 2026061101,
   "stations": [
     {
       "id": "58db8d2b-0fba-4ba4-87d2-e8b2620c9cca",
@@ -41944,25 +41944,73 @@
       "presets": [
         {
           "id": "dfe2ff75-2bb8-4660-8b47-c4a1948041af",
+          "ordinal": 1,
           "name": "24 ILS-Z (PRIMARY)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFTP [ATIS_CODE]. [TIME]. @ILSZ @APCH. RWY 24 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
+          "template": "@EFTP [ATIS_CODE]. [TIME]. ILSZ @APCH. RWY 24 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "a4907d84-514f-4658-8f35-1d0d0be02dad",
+          "ordinal": 2,
           "name": "06 RNP (PRIMARY)",
           "airportConditions": "",
           "template": "@EFTP [ATIS_CODE]. [TIME]. RNP @APCH. RWY 06 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "9beeb684-2207-47c1-aadd-dc2bb83f3177",
+          "ordinal": 3,
+          "name": "\uD83D\uDEA7 24 ILS-Z (24 JUN - 24 JUL)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "@EFTP [ATIS_CODE]. [TIME]. ILSZ @APCH. RWY 24 IN USE. WIP_06C. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "18134557-2a93-45e4-8882-753467bc1089",
+          "ordinal": 3,
+          "name": "\uD83D\uDEA7 06C RNP (24 JUN - 24 JUL)",
+          "airportConditions": "",
+          "template": "@EFTP [ATIS_CODE]. [TIME]. RNP @APCH. RWY 06C IN USE. WIP_06C. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "03d3bc73-f42a-4389-86b9-21e980d93f9f",
+          "ordinal": 5,
           "name": "24 RNP",
           "airportConditions": "",
           "template": "@EFTP [ATIS_CODE]. [TIME]. RNP @APCH. RWY 24 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
@@ -41972,6 +42020,7 @@
         },
         {
           "id": "f923f0e4-fdfd-414f-9f4e-e29aa82a7859",
+          "ordinal": 6,
           "name": "06 VOR",
           "airportConditions": "",
           "template": "@EFTP [ATIS_CODE]. [TIME]. VOR @APCH. RWY 06 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
@@ -41981,6 +42030,7 @@
         },
         {
           "id": "397f8487-6620-46bb-a543-9cf378cedfc6",
+          "ordinal": 7,
           "name": "24 VOR",
           "airportConditions": "",
           "template": "@EFTP [ATIS_CODE]. [TIME]. VOR @APCH. RWY 24 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
@@ -41990,6 +42040,7 @@
         },
         {
           "id": "137f9cfb-a7ff-43a3-9c57-cb0be2946db2",
+          "ordinal": 8,
           "name": "06 RNP or VISUAL",
           "airportConditions": "",
           "template": "@EFTP [ATIS_CODE]. [TIME]. RNP OR VISUAL @APCH. RWY 06 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
@@ -41999,6 +42050,7 @@
         },
         {
           "id": "137f9cfb-a7ff-43a3-9c57-cb0be2946db2",
+          "ordinal": 9,
           "name": "24 ILS-Z or VISUAL",
           "airportConditions": "",
           "template": "@EFTP [ATIS_CODE]. [TIME]. @ILSZ OR VISUAL @APCH. RWY 24 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
@@ -42008,6 +42060,7 @@
         },
         {
           "id": "137f9cfb-a7ff-43a3-9c57-cb0be2946db2",
+          "ordinal": 10,
           "name": "06 VISUAL",
           "airportConditions": "",
           "template": "@EFTP [ATIS_CODE]. [TIME]. VISUAL @APCH. RWY 06 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
@@ -42017,6 +42070,7 @@
         },
         {
           "id": "187acb8c-9fce-4da0-9904-33b08795bd0a",
+          "ordinal": 11,
           "name": "24 VISUAL",
           "airportConditions": "",
           "template": "",
@@ -42060,6 +42114,11 @@
           "variableName": "ILSZ",
           "text": "ILS Z",
           "voice": "ILS ZULU"
+        },
+        {
+          "variableName": "WIP_06C",
+          "text": "WRNG OBS DISPLACED THR RWY 06 CENTER, LDA 2277M",
+          "voice": "WARNING. OBSERVE DISPLACED THRESHOLD RUNWAY ZERO SIX CENTER. LANDING DISTANCE AVAILABLE TWO THOUSAND TWO HUNDERED AND SEVENTY SEVEN METERS"
         }
       ],
       "airportConditionDefinitions": [
