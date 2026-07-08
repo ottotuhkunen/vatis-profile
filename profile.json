@@ -1,8 +1,8 @@
 {
-  "name": "Finland 11 JUN 2026 1",
+  "name": "Finland 08 JUL 2026 1",
   "id": "5ceb6103-f4c7-4c36-933e-5676948142c7",
   "updateUrl": "https://vatis.lusep.fi/profile.json",
-  "updateSerial": 2026061101,
+  "updateSerial": 2026070801,
   "stations": [
     {
       "id": "58db8d2b-0fba-4ba4-87d2-e8b2620c9cca",
@@ -41978,10 +41978,10 @@
         {
           "id": "9beeb684-2207-47c1-aadd-dc2bb83f3177",
           "ordinal": 3,
-          "name": "\uD83D\uDEA7 24 ILS-Z (24 JUN - 24 JUL)",
+          "name": "\uD83D\uDEA7 24 RNP (24 JUN - 24 JUL)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EFTP [ATIS_CODE]. [TIME]. ILSZ @APCH. RWY 24 IN USE. WIP_06C. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
+          "template": "@EFTP [ATIS_CODE]. [TIME]. RNP @APCH. RWY 24 IN USE. WIP_06C. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
