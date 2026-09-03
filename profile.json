@@ -41976,41 +41976,8 @@
           }
         },
         {
-          "id": "9beeb684-2207-47c1-aadd-dc2bb83f3177",
-          "ordinal": 3,
-          "name": "\uD83D\uDEA7 24C RNP (24 JUL - 31 AUG)",
-          "airportConditions": "",
-          "notams": "",
-          "template": "@EFTP [ATIS_CODE]. [TIME]. RNP @APCH. RWY 24C IN USE. WIP_24C. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "18134557-2a93-45e4-8882-753467bc1089",
-          "ordinal": 3,
-          "name": "\uD83D\uDEA7 06 RNP (24 JUL - 31 AUG)",
-          "airportConditions": "",
-          "template": "@EFTP [ATIS_CODE]. [TIME]. RNP @APCH. RWY 06 IN USE. WIP_24C. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
           "id": "03d3bc73-f42a-4389-86b9-21e980d93f9f",
-          "ordinal": 5,
+          "ordinal": 3,
           "name": "24 RNP",
           "airportConditions": "",
           "template": "@EFTP [ATIS_CODE]. [TIME]. RNP @APCH. RWY 24 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
@@ -42020,7 +41987,7 @@
         },
         {
           "id": "f923f0e4-fdfd-414f-9f4e-e29aa82a7859",
-          "ordinal": 6,
+          "ordinal": 4,
           "name": "06 VOR",
           "airportConditions": "",
           "template": "@EFTP [ATIS_CODE]. [TIME]. VOR @APCH. RWY 06 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
@@ -42030,7 +41997,7 @@
         },
         {
           "id": "397f8487-6620-46bb-a543-9cf378cedfc6",
-          "ordinal": 7,
+          "ordinal": 5,
           "name": "24 VOR",
           "airportConditions": "",
           "template": "@EFTP [ATIS_CODE]. [TIME]. VOR @APCH. RWY 24 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
@@ -42040,7 +42007,7 @@
         },
         {
           "id": "137f9cfb-a7ff-43a3-9c57-cb0be2946db2",
-          "ordinal": 8,
+          "ordinal": 6,
           "name": "06 RNP or VISUAL",
           "airportConditions": "",
           "template": "@EFTP [ATIS_CODE]. [TIME]. RNP OR VISUAL @APCH. RWY 06 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
@@ -42050,7 +42017,7 @@
         },
         {
           "id": "137f9cfb-a7ff-43a3-9c57-cb0be2946db2",
-          "ordinal": 9,
+          "ordinal": 7,
           "name": "24 ILS-Z or VISUAL",
           "airportConditions": "",
           "template": "@EFTP [ATIS_CODE]. [TIME]. @ILSZ OR VISUAL @APCH. RWY 24 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
@@ -42060,7 +42027,7 @@
         },
         {
           "id": "137f9cfb-a7ff-43a3-9c57-cb0be2946db2",
-          "ordinal": 10,
+          "ordinal": 8,
           "name": "06 VISUAL",
           "airportConditions": "",
           "template": "@EFTP [ATIS_CODE]. [TIME]. VISUAL @APCH. RWY 06 IN USE. [ARPT_COND] [TL]. @AUTO. [WIND]. [VIS] [NOTAMS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [WS] [RECENT_WX] [CLOSING]",
@@ -42070,7 +42037,7 @@
         },
         {
           "id": "187acb8c-9fce-4da0-9904-33b08795bd0a",
-          "ordinal": 11,
+          "ordinal": 9,
           "name": "24 VISUAL",
           "airportConditions": "",
           "template": "",
